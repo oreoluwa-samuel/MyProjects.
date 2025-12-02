@@ -4,7 +4,16 @@ A collection of my web development projects, including a Bakery Web App, Zoo Web
 
 A collection of my web development projects, including a **Bakery Web App**, **Zoo Web App**, **Contact Web App**, and **Calculator Web App**. These projects showcase my skills in **frontend development**, **creativity**, **problem-solving**, and **continuous learning**.  
 
-The repository also includes my **PDF portfolio**, highlighting my work and development journey.
+## Web Apps
+- Animal Zoo Website → Folder: ZooWebApp
+- Bakery App Website → Folder: BakeryWebApp
+- Calculator Web App → Folder: CalculatorWebApp
+- Contact Web App → Folder: ContactWebApp
+
+The repository also includes my PDF portfolio, highlighting my work as a Graphic Designer.
+
+## Portfolio
+- OreoluwaPortfolio
 
 ## Projects
 

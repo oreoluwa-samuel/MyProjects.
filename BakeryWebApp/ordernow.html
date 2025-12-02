@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <img src="images/1001171486.png" />
+    </div>
+
+    <div id="tabs-top">
+        <a href="index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="recipe.html">RECIPES</a>
+        <a href="ourstory.html">OUR STORY</a>
+        <a href="ordernow.html">ORDER NOW</a>
+    </div>
+
+    <div id="main">
+        <div class="order-form">
+            <h2>Place Your Order</h2>
+            <form action="order-receive.html" method="get">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="item">What would you like to order?</label>
+                <input type="text" id="item" name="item" placeholder="e.g. coconut bread, chocolate cake" required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="tabs-bottom">
+        <a href="specials.html">SPECIALS</a>
+        <a href="trending.html">TRENDING</a>
+        <a href="contact-us.html">CONTACT US</a>
+    </div>
+</body>
+</html>

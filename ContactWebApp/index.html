@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Contacts</h1>
+        <button id="addContactBtn" class="primary-btn">+ Add Contact</button>
+
+        <div id="contactsDiv" class="contacts-list">
+            No contacts yet.
+        </div>
+    </div>
+
+    <!-- Popup Form -->
+    <div id="addContactForm" class="form-popup">
+        <h2>Add / Edit Contact</h2>
+        <input type="text" id="contactName" placeholder="Name">
+        <input type="email" id="contactEmail" placeholder="Email">
+        <input type="text" id="contactPhone" placeholder="Phone">
+        <div class="form-buttons">
+            <button id="submitContact" class="primary-btn">Save</button>
+            <button id="closeForm" class="secondary-btn">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
